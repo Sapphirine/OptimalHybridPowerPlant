@@ -11,13 +11,13 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class Optimizer{
 
-	public static double ld=100000;
-	public static double epv=15;
-	public static double ewtg=12;
-	public static double cpv=300;
-	public static double cwtg=3500;
+	public static double ld=163346823;
+	public static double epv=1422.411;
+	public static double ewtg=15554.965;
+	public static double cpv=1500000;
+	public static double cwtg=6500000;
 	
-	public static double epThresh=0.9; 
+	public static double epThresh=0.2;
 	public static double demandThresh=0.5;
 	
 	public static final String NO_MINIMA="NO MINIMAL FOUND";
